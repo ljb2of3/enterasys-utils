@@ -4,6 +4,9 @@ This repository contains a small collection of scripts I created recently to ass
 
 https://click.palletsprojects.com/en/7.x/setuptools/
 
+These were quick and dirty scripts to serve a particular purpose. They worked quite well, but the error handling needs to be improved. In particular using the `raise` keyword when there was an error is entirely wrong, but I didn't realize that until later and didn't want to modify the script. The intent was to stop the program, and using `raise` incorrectly still got that job done. :)
+
+
 ## macreport
 
 This was used to generate a report of every MAC address on a particular VLAN, and what switch and port it was seen on.
